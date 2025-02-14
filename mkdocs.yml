@@ -1,13 +1,16 @@
-site_name: My MkDocs Material Documentation
+site_name: NOUMENA EVOKE
 site_url: https://sitename.example
 theme:
   name: material
-  #logo: assets/logo.png
-  #favicon: assets/favicon.ico
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+ # logo: assets/logo.png
+ # favicon: assets/favicon.ico
   features:
-    - navigation.footer 
+    - navigation.footer
   palette:
-    # Dark Mode
+    # Dark Mode
     - scheme: slate
       toggle:
         icon: material/weather-sunny
@@ -22,31 +25,27 @@ theme:
         name: Light mode
       primary: blue
       accent: deep orange
+
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
-markdown_extensions:
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-copyright: Copyright &copy; 2025 Noumena Digital AG
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+
+copyright: Copyright &copy; 2025 NOUMENA DIGITAL

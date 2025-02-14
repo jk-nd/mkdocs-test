@@ -127,3 +127,47 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+.CFUserTextEncoding
+.DS_Store
+.Rhistory
+.bash_history
+.bash_profile
+.bash_sessions/
+.chainlink-sepolia/
+.clickshare_button/
+.conda/
+.config/
+.cups/
+.docker/
+.jupyter/
+.lesshst
+.local/
+.m2/
+.matplotlib/
+.npm/
+.ollama/
+.redhat/
+.sdkman/
+.ssh/
+.viminfo
+.vscode/
+.zcompcache/
+.zcompdump
+.zsh_history
+.zsh_sessions/
+.zshrc
+Applications/
+FI test/
+Google Drive
+IdeaProjects/
+Library/
+Movies/
+Music/
+Noumena Digital AG/
+OneDrive - Noumena Digital AG
+Pictures/
+Projects/
+Public/
+temporal/
